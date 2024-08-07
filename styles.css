@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: aqua;
+    height: 100vh; 
+    margin: 0; 
+    position: relative; 
+}
+
+.container{
+    position: relative;
+    top: 50%; 
+    left: 50%; 
+    translate: (-50%, -50%);
+    justify-content: center;
+    text-align: center;
+}
+
+.login-box {
+    background-color: aliceblue;
+    padding: 40px 0px 40px 40px;
+    text-align: center;
+    border-radius: 8px;
+    width:300px;
+    justify-content: center;
+}
+
+h2{
+    margin:0;
+    color: gray;
+    font-size: 24px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h3{
+    margin:0;
+    color: gray;
+    font-size: 24px;
+}
+
+
+input{
+    display: block;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-id{
+    padding: 20px 20px 20px 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.forgot-password{
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.login{
+    justify-content: center;
+}
+
+.submit{
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 70px;
+    text-align: center;
+    background-color: blueviolet;
+    border: 20px;
+    border-radius: 10px;
+}
